@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <img alt="Vue logo" src="./assets/rocket.png">
+    <SpaceX msg='Hi Falcon'></SpaceX>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import * as PIXI from 'pixi.js'
+import SpaceX from './components/SpaceX.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    SpaceX
   }
 }
 </script>
